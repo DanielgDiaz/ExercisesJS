@@ -1,9 +1,9 @@
 function sumaPrompt(){
     let suma;
 
-    let a = prompt("Escribe un numero")
+    let a = parseInt(prompt("Escribe un numero"))
 
-    let b = prompt("Escribe otro numero")
+    let b = parseInt(prompt("Escribe otro numero"))
 
     suma = a + b ;
 
